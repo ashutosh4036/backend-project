@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "description": "a backend project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
-  "repository": {
-    
-  },
+  "repository": {},
   "keywords": [
     "Javascript",
     "Backend"
   ],
   "author": "Ashutosh Tripathi",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
